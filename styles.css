@@ -1,0 +1,111 @@
+/* General Reset and Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: Brown; /* Red background */
+    color: white; /* White text color for contrast */
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: brown; /* Black header for contrast */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Navigation Menu Styling */
+nav {
+    background: #8B4513; /* SaddleBrown for navigation background */
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+nav ul li a:hover {
+    background-color: brown; /* Hover effect with brown color */
+    border-radius: 4px;
+}
+
+/* Main Content Styling */
+main h2 {
+    border-bottom: 2px solid Brown; /* Brown border for section headings */
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+main p {
+    margin-bottom: 20px;
+}
+
+/* List Styling */
+ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+section#services li u {
+    font-weight: bold;
+}
+
+/* Link Styling */
+a {
+    color: white; /* White color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section Styling */
+section#contact a {
+    color: White; /* Consistent White for links */
+    text-decoration: none;
+}
+
+section#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    background-color: Black; /* Black footer for consistency */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    header h2 {
+        font-size: 1.2em;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 10px;
+    }
+}
